@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Experiment Definition</title>
+</head>
+<body>
+<h1>Define Your Experiment</h1>
+<form action="/submit" method="POST">
+<label for="exp_name">Experiment Name:</label>
+<input type="text" id="exp_name" name="exp_name" required>
+<br>
+<label for="variables">Variables:</label>
+<input type="text" id="variables" name="variables[]" required>
+<br>
+<label for="metrics">Metrics:</label>
+<input type="text" id="metrics" name="metrics[]" required>
+<br>
+<input type="submit" value="Submit">
+</form>
+</body>
+</html>
+
+
